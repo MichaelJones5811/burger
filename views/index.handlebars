@@ -9,7 +9,7 @@
               
                 <li>
                   {{this.burger_name}}
-               
+
                   <form action="/{{this.id}}?_method=PUT" method="POST">
                     <input type="hidden" name="devoured" value="true">
                     <button type="submit">Devoure it</button>
@@ -45,10 +45,10 @@
 </div> {{!-- end of row --}}
 <div class="row text-center">
   <h2>Add a Burgers</h2>
-  <form class="create-update-form" action="/" method="POST">
+  <form class="form" action="/" method="POST">
     <div class="form-group">
-      <label for="ca">Burger Name:</label>
-      <textarea type="text" id="ca" name="burger_name"></textarea>
+      <label for="bn">Burger Name:</label>
+      <textarea type="text" name="burger_name"></textarea>
     </div> 
     <div> 
       <ul>
