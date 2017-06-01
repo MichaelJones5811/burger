@@ -49,13 +49,14 @@
     <div class="form-group">
       <label for="bn">Burger Name:</label>
       <textarea type="text" name="burger_name"></textarea>
+      <input type="hidden" name="devoured" value="0">
     </div> 
-    <div> 
+    {{!-- <div> 
       <ul>
         <li><input type="radio" name="devoured" value="0"> not devoured</li>
         <li><input type="radio" name="devoured" value="1"> devoured</li>
       </ul>  
-    </div>
+    </div> --}}
     <button type="submit">Create a Burger</button>
   </form>
 </div>
